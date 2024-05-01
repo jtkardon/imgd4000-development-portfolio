@@ -19,8 +19,10 @@ Contributions:
 - Numerous bug fixes and quality of life changes
 
 Challenges:
-- One of the first major challenges I faced was learning Unreal and blueprints as I had never used them before. It took some time for me to start understanding how blueprints work and what the important nodes were. I overcame this challenge
-
+- One of the first major challenges I faced was learning Unreal and blueprints as I had never used them before. It took some time for me to start understanding how blueprints work and what the important nodes were. I overcame this challenge by watching many tutorials on the inner workings of Unreal and the basics of blueprints.
+- A major challenge that we faced was fixing an issue with the animations where it would freeze if you pressed the key in rapid succession. We got everyone on the team together and put our heads together in order to try and find a fix. After much trial and error, we fixed it by setting the animations to loop and modifying the way the key presses were setting the variables.
+- Another challenge I faced was when I didn't pull fully from main after creating a branch in order the make the credits page, so there were merge conflicts with the menu blueprint and I thought that I would have to redo the entire credits page. I got around this by copying all the widgets of the credits page to another ui blueprint that was not being touched, pulling from main and then copying it back into the main menu blueprint. This saved the few hours of work it would've take me to redo the page.
+  
 Version Control:
 - We used GitHub for our version control
 - Since most of the tech team was already familiar with GitHub we didn't have much trouble at the start
